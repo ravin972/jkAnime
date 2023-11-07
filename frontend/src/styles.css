@@ -157,3 +157,56 @@ html {
         /* Move down */
     }
 }
+
+.secondPage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #d8d8d8;
+    padding: 5rem 10rem;
+}
+
+.secondPage .secleft {
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 1rem 8rem;
+}
+
+.secondPage .secleft h1:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0 5rem;
+    padding-left: 0;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.secondPage .secleft h1:nth-child(2) {
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    line-height: 1;
+    letter-spacing: -.1rem;
+}
+
+.secondPage .secright {
+    padding: 1rem 3rem;
+}
+
+.secondPage .secright p {
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: -.05rem;
+    width: 40vw;
+}
+
+.secondPage .secright p a {
+    text-decoration: none;
+    color: rgb(19, 63, 207);
+}
+
+.secondPage .secright p a:hover {
+    -webkit-text-stroke: .5px #131313;
+}
