@@ -210,3 +210,67 @@ html {
 .secondPage .secright p a:hover {
     -webkit-text-stroke: .5px #131313;
 }
+
+.thirdPage {
+    background-color: #1a1a1a;
+    padding: 5rem 5rem;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 5rem;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    color: #f5f5f7;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    overflow: hidden;
+    box-shadow: .5rem .5rem 1rem rgba(255, 255, 255, 0.2);
+    transition: all ease 0.3s;
+}
+
+.card h3 {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    color: #afaaaa;
+    margin: 1rem 10rem;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .box {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, #000000);
+    bottom: -40%;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover {
+    border-radius: 1rem;
+}
+
+.card:hover .box {
+    bottom: 0;
+}
